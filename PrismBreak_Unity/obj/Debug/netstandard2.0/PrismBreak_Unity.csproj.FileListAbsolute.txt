@@ -1,0 +1,13 @@
+C:\_Training\PrismBreak_Unity\PrismBreak_Unity\PrismBreak_Unity\bin\Debug\netstandard2.0\PrismBreak_Unity.deps.json
+C:\_Training\PrismBreak_Unity\PrismBreak_Unity\PrismBreak_Unity\bin\Debug\netstandard2.0\PrismBreak_Unity.dll
+C:\_Training\PrismBreak_Unity\PrismBreak_Unity\PrismBreak_Unity\bin\Debug\netstandard2.0\PrismBreak_Unity.pdb
+C:\_Training\PrismBreak_Unity\PrismBreak_Unity\PrismBreak_Unity\obj\Debug\netstandard2.0\PrismBreak_Unity.csproj.CoreCompileInputs.cache
+C:\_Training\PrismBreak_Unity\PrismBreak_Unity\PrismBreak_Unity\obj\Debug\netstandard2.0\PrismBreak_Unity.App.xaml.g.cs
+C:\_Training\PrismBreak_Unity\PrismBreak_Unity\PrismBreak_Unity\obj\Debug\netstandard2.0\PrismBreak_Unity.Views.EmployeePage.xaml.g.cs
+C:\_Training\PrismBreak_Unity\PrismBreak_Unity\PrismBreak_Unity\obj\Debug\netstandard2.0\PrismBreak_Unity.Views.MainPageView.xaml.g.cs
+C:\_Training\PrismBreak_Unity\PrismBreak_Unity\PrismBreak_Unity\obj\Debug\netstandard2.0\PrismBreak_Unity.Views.SpeakPage.xaml.g.cs
+C:\_Training\PrismBreak_Unity\PrismBreak_Unity\PrismBreak_Unity\obj\Debug\netstandard2.0\PrismBreak_Unity.AssemblyInfoInputs.cache
+C:\_Training\PrismBreak_Unity\PrismBreak_Unity\PrismBreak_Unity\obj\Debug\netstandard2.0\PrismBreak_Unity.AssemblyInfo.cs
+C:\_Training\PrismBreak_Unity\PrismBreak_Unity\PrismBreak_Unity\obj\Debug\netstandard2.0\PrismBreak_Unity.dll
+C:\_Training\PrismBreak_Unity\PrismBreak_Unity\PrismBreak_Unity\obj\Debug\netstandard2.0\PrismBreak_Unity.pdb
+C:\_Training\PrismBreak_Unity\PrismBreak_Unity\PrismBreak_Unity\obj\Debug\netstandard2.0\PrismBreak_Unity.csprojResolveAssemblyReference.cache

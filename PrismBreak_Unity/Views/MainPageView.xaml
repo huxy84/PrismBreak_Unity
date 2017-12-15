@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrismBreak_Unity.Views.MainPage"
+             BackgroundColor="#303030"
+             Title="{Binding Title}"
+>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Employees" Order="Secondary" Priority="1" Command="{Binding NavigateEmployeeCommand}" />
+        <ToolbarItem Text="Speech" Order="Secondary" Priority="2" Command="{Binding NavigateToSpeakPageCommand}" />
+        <ToolbarItem Text="Alert" Order="Secondary" Priority="3" Command="{Binding AlertUserCommand}" />
+        <ToolbarItem Text="Aks A Question" Order="Secondary" Priority="4" Command="{Binding AksAQuestionCommand}" />
+        <ToolbarItem Text="Watch a Movie" Order="Secondary" Priority="4" Command="{Binding DisplayActionSheetCommand}" />
+    </ContentPage.ToolbarItems>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*" />
+            <ColumnDefinition Width="0.5*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" FontAttributes="Bold" TextColor="White" Text="Device Info" />
+        
+        <Label Grid.Row="1" Margin="5, 0, 0, 0" Grid.Column="0" TextColor="White" Text="ID" />
+        <Label Grid.Row="1" Grid.Column="1" TextColor="White" Text="{Binding DeviceInfo.Id}" />
+
+        <Label Grid.Row="2" Margin="5, 0, 0, 0" Grid.Column="0" TextColor="White" Text="Model" />
+        <Label Grid.Row="2" Grid.Column="1" TextColor="White" Text="{Binding DeviceInfo.Model}" />
+
+        <Label Grid.Row="3" Margin="5, 0, 0, 0" Grid.Column="0" TextColor="White" Text="OS Version" />
+        <Label Grid.Row="3" Grid.Column="1" TextColor="White" Text="{Binding DeviceInfo.OS}" />
+
+        <Label Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" HorizontalTextAlignment="Center" FontAttributes="Bold" TextColor="White" Text="Current GPS Postion" />
+
+        <Label Grid.Row="6" Margin="5, 0, 0, 0" Grid.Column="0" TextColor="White" Text="Latitude" />
+        <Label Grid.Row="6" Grid.Column="1" TextColor="White" Text="{Binding CurrentPosition.Latitude}" />
+
+        <Label Grid.Row="7" Margin="5, 0, 0, 0" Grid.Column="0" TextColor="White" Text="Longitude" />
+        <Label Grid.Row="7" Grid.Column="1" TextColor="White" Text="{Binding CurrentPosition.Longitude}" />
+    </Grid>
+</ContentPage>
